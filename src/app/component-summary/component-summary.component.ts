@@ -8,16 +8,16 @@ import { Component, Output, OnInit, Input, EventEmitter } from '@angular/core';
 export class ComponentSummaryComponent {
 
 
-  @Input() lastname : String = "";
-  @Input() firstname : String = "";
-  @Input() zipCode : Number = 0;
-  @Input() tel : String = "";
-  @Input() email : String = "";
-  @Input() gender : String = "";
-  @Input() login : String = "";
-  @Input() password : String = "";
-  @Input() passwordCheck : String = "";
-  
+  @Input() lastname : string = "";
+  @Input() firstname : string = "";
+  @Input() zipCode : string = "";
+  @Input() tel : string = "";
+  @Input() email : string = "";
+  @Input() gender : string = "";
+  @Input() login : string = "";
+  @Input() password : string = "";
+  @Input() passwordCheck : string = "";
+
   @Output() change: EventEmitter<boolean> = new EventEmitter<boolean>();
 
 

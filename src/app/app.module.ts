@@ -9,6 +9,8 @@ import { ComponentFormComponent } from './component-form/component-form.componen
 import { ComponentSummaryComponent } from './component-summary/component-summary.component';
 import { CheckFormStringDirective } from './check-form-string.directive';
 import { CheckFormNumberDirective } from './check-form-number.directive';
+import { PipeFormatTelPipe } from './pipe-format-tel.pipe';
+import { CheckFormEMailDirective } from './check-form-email.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CheckFormNumberDirective } from './check-form-number.directive';
     ComponentFormComponent,
     ComponentSummaryComponent,
     CheckFormStringDirective,
-    CheckFormNumberDirective
+    CheckFormNumberDirective,
+    PipeFormatTelPipe,
+    CheckFormEMailDirective
   ],
   imports: [
     BrowserModule,

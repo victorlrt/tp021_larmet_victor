@@ -4,9 +4,9 @@
       <div class="form-items" >
         <label>Lastname : </label> <input type="text" placeholder="Lastname" [(ngModel)]="ngLastname" appCheckFormString /> <br>
         <label>Firstname : </label> <input type="text" placeholder="Firstname" [(ngModel)]="ngFirstname"  appCheckFormString/> <br>
-        <label>Zip code : </label> <input type="number" placeholder="Zip code" [(ngModel)]="ngZipCode"  /> <br>
-        <label>Tel : </label> <input type="tel" placeholder="Telephone" [(ngModel)]="ngTel" /> <br>
-        <label>Email : </label> <input type="email" placeholder="Email" [(ngModel)]="ngEmail"  /> <br>
+        <label>Zip code : </label> <input type="text" placeholder="Zip code" [(ngModel)]="ngZipCode" appCheckFormNumber /> <br>
+        <label>Tel : </label> <input type="tel" placeholder="Telephone" [(ngModel)]="ngTel" appCheckFormNumber /> <br>
+        <label>Email : </label> <input type="email" placeholder="Email" [(ngModel)]="ngEmail"  appCheckFormEmail/> <br>
         <label>Gender : </label>
         <div>
           <input type="radio" name="gender" value="Male" [(ngModel)]="ngGender" > <label> Male</label>
@@ -14,7 +14,7 @@
         </div>
 
         <div>
-          <label>Login : </label> <input type="text" placeholder="Login" [(ngModel)]="ngLogin"  /> <br>
+          <label>Login : </label> <input type="text" placeholder="Login" [(ngModel)]="ngLogin" /> <br>
           <label>Password : </label> <input type="password" id="password" placeholder="Password"
             [(ngModel)]="ngPassword" /> <br>
           <label>Verification Password : </label> <input type="password" id="verifPassword"

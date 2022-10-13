@@ -7,17 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponentFormComponent {
 
-  constructor() { }
+  constructor() {
+  }
 
-  ngLastname : String = "";
-  ngFirstname : String = "";
-  ngZipCode : Number = 0;
-  ngTel : String = "";
-  ngEmail : String = "";
-  ngGender : String = "";
-  ngLogin : String = "";
-  ngPassword : String = "";
-  ngPasswordCheck : String = "";
+  ngLastname : string = "";
+  ngFirstname : string = "";
+  ngZipCode : string = "";
+  ngTel : string = "";
+  ngEmail : string = "";
+  ngGender : string = "";
+  ngLogin : string = "";
+  ngPassword : string = "";
+  ngPasswordCheck : string = "";
 
   showSummary = false
 
