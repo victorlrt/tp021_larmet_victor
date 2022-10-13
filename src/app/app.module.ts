@@ -7,6 +7,8 @@ import { ComponentHeaderComponent } from './component-header/component-header.co
 import { ComponentFooterComponent } from './component-footer/component-footer.component';
 import { ComponentFormComponent } from './component-form/component-form.component';
 import { ComponentSummaryComponent } from './component-summary/component-summary.component';
+import { CheckFormStringDirective } from './check-form-string.directive';
+import { CheckFormNumberDirective } from './check-form-number.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ComponentSummaryComponent } from './component-summary/component-summary
     ComponentHeaderComponent,
     ComponentFooterComponent,
     ComponentFormComponent,
-    ComponentSummaryComponent
+    ComponentSummaryComponent,
+    CheckFormStringDirective,
+    CheckFormNumberDirective
   ],
   imports: [
     BrowserModule,
